@@ -44,7 +44,7 @@ export function SettingsTab() {
     phone: '',
     department: user?.role === 'admin' ? 'Administração' : 'Recursos Humanos',
     bio: '',
-    location: 'Port-au-Prince, Haiti',
+    location: 'Saic, Chspecó, Santa Catarina, Brasil',
     birthDate: '',
     emergencyContact: '',
     employeeId: user?.role === 'admin' ? 'ADM-001' : user?.role === 'encarregado' ? 'ENC-001' : 'MON-001',
